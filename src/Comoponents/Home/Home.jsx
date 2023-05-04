@@ -15,7 +15,7 @@ const Home = () => {
     
     if(exist){
 
-     toast('Here is your toast.');
+     toast('You have already added this tshirt');
     }else{
       const newCart=[...cart,tshirt]
       setCart(newCart)
